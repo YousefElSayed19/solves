@@ -31,6 +31,5 @@ Free_Palestine
 {
     loop{
         cit(n);
-		cout << (n == 3 ? 3 : 2) << endl;
     }
 }
