@@ -27,18 +27,20 @@ using namespace std;
     {          \
         NO;    \
     }
+
 Free_Palestine
 {
-    loop{
+    string s;
+    cin >> s;
+    int sum = 0;
+    char current = 'a';
 
-        int a[3], n;
-		cin >> a[0] >> a[1] >> a[2] >> n;
-		sort(a, a + 3);
-		n -= 2 * a[2] - a[1] - a[0];
-		if (n < 0 || n % 3 != 0) {
-			cout << "NO" << endl;
-		} else {
-			cout << "YES" << endl;
-		}
+    for (char c : s)
+    {
+        int diff = abs(c - current);
+        sum += min(diff, 26 - diff);
+        current = c;
     }
+
+    cot(sum);
 }
