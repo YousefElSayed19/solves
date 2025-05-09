@@ -31,32 +31,11 @@ using namespace std;
 Free_Palestine
 {
 
-    cit(n);
-    ld arr[n];
-    int c = 1;
-    int max = 0;
-    forn(i, n)
-    {
-        cin >> arr[i];
-        if (i > 0)
-        {
-            if (arr[i] > arr[i - 1] && arr[i] != arr[i - 1])
-            {
-                c++;
-            }
-            else
-            {
-                if (max < c)
-                {
-                    max = c;
-                }
-                c = 1;
-            }
-        }
+    loop{
+        cit(n);
+        string s ;
+        cin >> s;
+        sortStr(s);
+        cot(int(s[n-1])-96);
     }
-    if (max < c)
-    {
-        max = c;
-    }
-    cot(max);
 }
