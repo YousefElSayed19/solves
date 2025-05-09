@@ -30,12 +30,19 @@ using namespace std;
 
 Free_Palestine
 {
-
     loop{
-        cit(n);
-        string s ;
-        cin >> s;
-        sortStr(s);
-        cot(int(s[n-1])-96);
+        string arr[8];
+        forn(i,8){
+            cin>>arr[i];
+        }
+        string word="";
+        forn(i,8){
+            forn(j,8){
+                if(arr[i][j] !='.'){
+                    word+=arr[i][j];
+                }
+            }
+        }
+        cot(word);
     }
 }
