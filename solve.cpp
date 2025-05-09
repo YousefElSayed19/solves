@@ -32,8 +32,17 @@ Free_Palestine
 {
     loop{
         string arr[10];
-        forn(i,10){
+        forn(i,10){ 
             cin>>arr[i];
         }
+        ld sum = 0;
+        for(int i = 0 ; i<10;i++){
+            for(int j = 0 ; j<10;j++){
+                if(arr[i][j] == 'X'){
+                    sum += j+1;
+                }
+            }
+        }
+        cot(sum);
     }
 }
