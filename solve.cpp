@@ -32,7 +32,7 @@ Free_Palestine
 {
     loop{
         cit(n);
-        if(n%2==0){
+        if(n%2){
             cot(n/2-1);
         }else{
             cot(n/2);
