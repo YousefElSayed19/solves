@@ -30,17 +30,10 @@ using namespace std;
 
 Free_Palestine
 {
-    string s;
-    cin >> s;
-    int sum = 0;
-    char current = 'a';
-
-    for (char c : s)
-    {
-        int diff = abs(c - current);
-        sum += min(diff, 26 - diff);
-        current = c;
+    loop{
+        string arr[10];
+        forn(i,10){
+            cin>>arr[i];
+        }
     }
-
-    cot(sum);
 }
