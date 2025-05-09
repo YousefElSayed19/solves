@@ -43,6 +43,5 @@ Free_Palestine
                 }
             }
         }
-        cot(word);
     }
 }
