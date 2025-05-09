@@ -35,13 +35,6 @@ Free_Palestine
         forn(i,8){
             cin>>arr[i];
         }
-        string word="";
-        forn(i,8){
-            forn(j,8){
-                if(arr[i][j] !='.'){
-                    word+=arr[i][j];
-                }
-            }
-        }
+
     }
 }
