@@ -31,6 +31,11 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        string arr[8];
+        cit(n);
+        if(n%2==0){
+            cot(n/2-1);
+        }else{
+            cot(n/2);
+        }
     }
 }
