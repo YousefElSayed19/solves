@@ -37,9 +37,15 @@ Free_Palestine
         }
         ld sum = 0;
         for(int i = 0 ; i<10;i++){
-            for(int j = 0 ; j<10;j++){
+            for(int j = 0 ; j<5;j++){
                 if(arr[i][j] == 'X'){
                     sum += j+1;
+                }
+            }
+            int s =3;
+            for(int j = 5 ; j<10;j++){
+                if(arr[i][j] == 'X'){
+                    sum += s--;
                 }
             }
         }
