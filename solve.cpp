@@ -32,8 +32,9 @@ Free_Palestine
 {
 
     cit(n);
-    int arr[n];
+    ld arr[n];
     int c = 1;
+    int max = 0;
     forn(i, n)
     {
         cin >> arr[i];
@@ -45,9 +46,17 @@ Free_Palestine
             }
             else
             {
+                if (max < c)
+                {
+                    max = c;
+                }
                 c = 1;
             }
         }
     }
-    cot(c);
+    if (max < c)
+    {
+        max = c;
+    }
+    cot(max);
 }
