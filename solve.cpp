@@ -30,6 +30,16 @@ using namespace std;
 
 Free_Palestine
 {
+    const int size = 10;
+    int target[size][size]; 
+
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            int ring = min({i, size - 1 - i, j, size - 1 - j}) + 1;
+            target[i][j] = ring;
+        }
+    }
+
     loop{
         string arr[10];
         forn(i,10){ 
@@ -37,15 +47,9 @@ Free_Palestine
         }
         ld sum = 0;
         for(int i = 0 ; i<10;i++){
-            for(int j = 0 ; j<5;j++){
+            for(int j = 0 ; j<10;j++){
                 if(arr[i][j] == 'X'){
-                    sum += j+1;
-                }
-            }
-            int s =3;
-            for(int j = 5 ; j<10;j++){
-                if(arr[i][j] == 'X'){
-                    sum += s--;
+                    sum += target[i][j];
                 }
             }
         }
