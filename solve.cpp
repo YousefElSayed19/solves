@@ -31,13 +31,23 @@ using namespace std;
 Free_Palestine
 {
 
-    loop
+    cit(n);
+    int arr[n];
+    int c = 1;
+    forn(i, n)
     {
-        cit(n);
-        if(n%4==0){
-            cot(n/4);
-        }else{
-            cot(n/4 + 1);
+        cin >> arr[i];
+        if (i > 0)
+        {
+            if (arr[i] > arr[i - 1] && arr[i] != arr[i - 1])
+            {
+                c++;
+            }
+            else
+            {
+                c = 1;
+            }
         }
     }
+    cot(c);
 }
