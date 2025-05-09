@@ -32,8 +32,5 @@ Free_Palestine
 {
     loop{
         string arr[8];
-        forn(i,8){
-            cin>>arr[i];
-        }
     }
 }
