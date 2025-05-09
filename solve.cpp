@@ -35,6 +35,5 @@ Free_Palestine
         forn(i,8){
             cin>>arr[i];
         }
-
     }
 }
