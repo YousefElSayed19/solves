@@ -61,5 +61,6 @@ Free_Palestine
                 break;
             }
         }
+        CHECK;
     }
 }
