@@ -43,7 +43,7 @@ Free_Palestine
         }else{
             bool check = true;
             for(int i = 0 ; i<n;i++){
-                if(arr[i]==arr[i+1] && arr[i]==arr[i+2] && i+1 != n){
+                if(i+1 != n && i+2 != n && arr[i]==arr[i+1] && arr[i+1]==arr[i+2] ){
                     cot(arr[i]);
                     check=false;
                     break;
