@@ -7,6 +7,7 @@ using namespace std;
     int t;    \
     cin >> t; \
     while (t--)
+#define true while(true)
 #define YES cout << "YES" << endl
 #define NO cout << "NO" << endl
 #define forn(i, n) for (int i = 0; i < int(n); i++)
@@ -32,10 +33,6 @@ Free_Palestine
 {
     loop{
         cit(n);
-        if(n%2){
-            cot(n/2+1);
-        }else{
-            cot(n/2);
-        }
+        cot(n-1);
     }
 }
