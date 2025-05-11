@@ -46,6 +46,7 @@ Free_Palestine
                 if(i+1 != n && i+2 != n && arr[i]==arr[i+1] && arr[i+1]==arr[i+2] ){
                     cot(arr[i]);
                     check=false;
+                    
                     break;
                 }
             }
