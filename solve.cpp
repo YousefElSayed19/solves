@@ -7,7 +7,7 @@ using namespace std;
     int t;    \
     cin >> t; \
     while (t--)
-#define TRUE while(true)
+#define TRUE while (true)
 #define YES cout << "YES" << endl
 #define NO cout << "NO" << endl
 #define forn(i, n) for (int i = 0; i < int(n); i++)
@@ -31,28 +31,36 @@ using namespace std;
 
 Free_Palestine
 {
-    loop{
+    loop
+    {
+        bool check = false;
         cit(n);
-        int arr[n];
-        forn(i,n){
-            cin>>arr[i];
-        }
-        sortArr(arr,n);
-        if(n<3){
-            cot(-1);
-        }else{
-            bool check = true;
-            for(int i = 0 ; i<n;i++){
-                if(i+1 != n && i+2 != n && arr[i]==arr[i+1] && arr[i+1]==arr[i+2] ){
-                    cot(arr[i]);
-                    check=false;
-                    
-                    break;
-                }
+        string s;
+        cin >> s;
+        int i = 0, j = 0;
+        forn(h, n)
+        {
+            if (s[h] == 'U')
+            {
+                j++;
             }
-            if(check){
-                cot(-1);
+            else if (s[h] == 'D')
+            {
+                j--;
+            }
+            else if (s[h] == 'R')
+            {
+                i++;
+            }
+            else if (s[h]=='L')
+            {
+                i--;
+            }
+            if(i==j && i == 1){
+                check = true;
+                break;
             }
         }
+        CHECK;
     }
 }
