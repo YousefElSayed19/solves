@@ -34,6 +34,5 @@ Free_Palestine
     loop{
         cit(n);
         cot(n-1);
-        
     }
 }
