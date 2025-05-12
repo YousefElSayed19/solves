@@ -33,34 +33,18 @@ Free_Palestine
 {
     loop
     {
-        bool check = false;
         cit(n);
-        string s;
-        cin >> s;
-        int i = 0, j = 0;
-        forn(h, n)
-        {
-            if (s[h] == 'U')
-            {
-                j++;
-            }
-            else if (s[h] == 'D')
-            {
-                j--;
-            }
-            else if (s[h] == 'R')
-            {
-                i++;
-            }
-            else if (s[h]=='L')
-            {
-                i--;
-            }
-            if(i==j && i == 1){
-                check = true;
-                break;
+        string arr[n];
+        forn(i ,n){
+            cin>>arr[i];
+        }
+        for(int i = n-1 ;i>=0;i--){
+            forn(j,n){
+                if(arr[i][j] == '#'){
+                    cout<<j+1<<" ";
+                }
             }
         }
-        CHECK;
+        cot("");
     }
 }
