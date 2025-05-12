@@ -41,7 +41,6 @@ Free_Palestine
             ans = (n / 2) * b + (n % 2) * a;
         }
         cot(ans);
-        
     }
     return 0;
 }
