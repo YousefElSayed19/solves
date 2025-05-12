@@ -40,6 +40,7 @@ Free_Palestine
         if (b < 2 * a) {
             ans = (n / 2) * b + (n % 2) * a;
         }
+        
         cot(ans);
     }
     return 0;
