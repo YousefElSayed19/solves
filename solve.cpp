@@ -35,13 +35,17 @@ Free_Palestine
     {
         cit(n);
         string arr[n];
-        forn(i ,n){
-            cin>>arr[i];
+        forn(i, n)
+        {
+            cin >> arr[i];
         }
-        for(int i = n-1 ;i>=0;i--){
-            forn(j,n){
-                if(arr[i][j] == '#'){
-                    cout<<j+1<<" ";
+        for (int i = n - 1; i >= 0; i--)
+        {
+            forn(j, 4)
+            {
+                if (arr[i][j] == '#')
+                {
+                    cout << j + 1 << " ";
                 }
             }
         }
