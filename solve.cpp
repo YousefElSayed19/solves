@@ -1,15 +1,46 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
 using namespace std;
-int main() {
-	int t;
-	cin>>t;
-	while(t--){
-		int n,cnt[2]={0};
-		cin>>n;
-		for(int i=1,x;i<=n*2;i++)cin>>x,cnt[x%2]++;
-		if(cnt[0]==n)puts("Yes");
-		else puts("No");
-	}
-	return 0;
-    
+
+#define Free_Palestine int main()
+#define loop  \
+    int t;    \
+    cin >> t; \
+    while (t--)
+#define TRUE while (true)
+#define YES cout << "YES" << endl
+#define NO cout << "NO" << endl
+#define forn(i, n) for (int i = 0; i < int(n); i++)
+#define sortStr(word) sort(word.begin(), word.end())
+#define sortArr(arr, n) sort(arr, arr + n)
+#define ll long long
+#define ld long double
+#define cot(word) cout << word << endl
+#define cit(word) \
+    int word;     \
+    cin >> word
+#define CHECK  \
+    if (check) \
+    {          \
+        YES;   \
+    }          \
+    else       \
+    {          \
+        NO;    \
+    }
+
+Free_Palestine
+{
+    loop
+    {
+        cit(n);
+        cit(a);
+        cit(b);
+        ll ans = n * a;
+        if (b < 2 * a) {
+            ans = (n / 2) * b + (n % 2) * a;
+        }
+        cot(ans);
+    }
+    return 0;
 }
