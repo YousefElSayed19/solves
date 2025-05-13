@@ -28,7 +28,6 @@ using namespace std;
     {          \
         NO;    \
     }
-
 Free_Palestine
 {
     loop
