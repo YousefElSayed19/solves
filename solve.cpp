@@ -34,14 +34,28 @@ Free_Palestine
     loop
     {
         cit(n);
-        ll arr[n];
-        ll sum = 0;
+        char arr[n];
+        int index[n];
+        int c = 0;
         forn(i, n)
         {
             cin >> arr[i];
-            sum += arr[i];
+            if (arr[i] == 'B')
+            {
+                index[c++] = i + 1;
+            }
         }
-        cout << (floor(sqrt(sum)) == sqrt(sum) ? "YES" : "NO") << endl;
+        if (n == 1)
+        {
+            if (arr[0] == 'B')
+            {
+                cot(1);
+            }
+        }
+        else
+        {
+            cot(index[c - 1] - index[0] + 1);
+        }
     }
     return 0;
 }
