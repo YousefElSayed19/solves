@@ -17,7 +17,7 @@ using namespace std;
 #define ld long double
 #define cot(word) cout << word << endl
 #define cit(word) \
-    int word;     \
+    ll word;      \
     cin >> word
 #define CHECK  \
     if (check) \
@@ -33,27 +33,13 @@ Free_Palestine
     loop
     {
         cit(n);
-        char arr[n];
-        int index[n];
-        int c = 0;
-        forn(i, n)
-        {
-            cin >> arr[i];
-            if (arr[i] == 'B')
-            {
-                index[c++] = i + 1;
+        int res = 0;
+        for (ll pw = 1; pw <= n; pw = pw * 10 + 1) {
+            for (int d = 1; d <= 9;  d++) {
+                if (pw * d <= n) {
+                    res++;
+                }
             }
-        }
-        if (n == 1)
-        {
-            if (arr[0] == 'B')
-            {
-                cot(1);
-            }
-        } 
-        else
-        {
-            cot(index[c - 1] - index[0] + 1);
         }
     }
     return 0;
