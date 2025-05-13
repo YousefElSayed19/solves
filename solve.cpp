@@ -32,12 +32,13 @@ using namespace std;
 Free_Palestine
 {
     loop
-    
+
     {
         cit(n);
         ll arr[n];
         ll sum = 0;
         forn(i, n)
+        
         {
             cin >> arr[i];
             sum += arr[i];
