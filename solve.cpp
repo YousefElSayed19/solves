@@ -34,13 +34,14 @@ Free_Palestine
     loop
     {
         cit(n);
-        cit(a);
-        cit(b);
-        ll ans = n * a;
-        if (b < 2 * a) {
-            ans = (n / 2) * b + (n % 2) * a;
+        int arr[n];
+        int sum = 0;
+        forn(i, n)
+        {
+            cin >> arr[i];
+            sum += arr[i];
         }
-        cot(ans);
+        cout << (floor(sqrt(sum)) == sqrt(sum) ? "YES" : "NO") << endl;
     }
     return 0;
 }
