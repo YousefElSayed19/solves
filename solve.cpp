@@ -34,8 +34,8 @@ Free_Palestine
     loop
     {
         cit(n);
-        int arr[n];
-        int sum = 0;
+        ll arr[n];
+        ll sum = 0;
         forn(i, n)
         {
             cin >> arr[i];
