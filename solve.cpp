@@ -40,8 +40,8 @@ Free_Palestine
                     res++;
                 }
             }
-            
         }
+        cot(res);
     }
     return 0;
 }
