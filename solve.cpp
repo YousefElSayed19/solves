@@ -53,7 +53,6 @@ Free_Palestine
             }
         }
         else
-        
         {
             cot(index[c - 1] - index[0] + 1);
         }
