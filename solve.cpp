@@ -44,4 +44,5 @@ Free_Palestine
         cout << (floor(sqrt(sum)) == sqrt(sum) ? "YES" : "NO") << endl;
     }
     return 0;
+    
 }
