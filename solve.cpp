@@ -40,5 +40,6 @@ Free_Palestine
         sortArr(x,4);
         cot(pow(abs(x[0]-x[3]),2));
     }
+    
     return 0;
 }
