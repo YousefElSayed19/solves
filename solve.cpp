@@ -32,14 +32,14 @@ Free_Palestine
 {
     loop
     {
-        int x[4];
-        int y[4];
+        ll x[4];
+        ll y[4];
         forn(i,4){
             cin>>x[i]>>y[i];
         }
         sortArr(x,4);
         cot(pow(abs(x[0]-x[3]),2));
     }
-    
+
     return 0;
 }
