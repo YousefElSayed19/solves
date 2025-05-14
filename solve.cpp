@@ -32,6 +32,27 @@ Free_Palestine
 {
     loop
     {
+        cit(n);
+        int a[n];
+        int b[n];
+        int ptr[n];
+        int ind=0;
+        forn(i,n){
+            cin>>a[i]>>b[i];
+            if(a[i]<10){
+                ptr[ind++]=i;
+            }
+        }
+        int mx[ind];
+        forn(i,ind){
+            mx[i] = b[ptr[i]];
+        }
+        sortArr(mx,ind);
+        forn(i,ind){
+            if (mx[ind-1] == b[ptr[i]]){
+                cot(ptr[i]+1);
+            }
+        }
     }
     return 0;
 }
