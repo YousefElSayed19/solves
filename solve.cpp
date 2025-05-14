@@ -32,14 +32,13 @@ Free_Palestine
 {
     loop
     {
-        cit(n);
-        int winner = -1, best_score = 0;
-        for (int i = 1; i <= n; i++) {
-            int a, b;
-            cin >> a >> b;
-            if (b > best_score && a <= 10) {winner = i; best_score = b;}
+        int x[4];
+        int y[4];
+        forn(i,4){
+            cin>>x[i]>>y[i];
         }
-        cot(winner);
+        sortArr(x,4);
+        cot(pow(abs(x[0]-x[3]),2));
     }
     return 0;
 }
