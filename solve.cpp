@@ -33,26 +33,13 @@ Free_Palestine
     loop
     {
         cit(n);
-        int a[n];
-        int b[n];
-        int ptr[n];
-        int ind=0;
-        forn(i,n){
-            cin>>a[i]>>b[i];
-            if(a[i]<10){
-                ptr[ind++]=i;
-            }
+        int winner = -1, best_score = 0;
+        for (int i = 1; i <= n; i++) {
+            int a, b;
+            cin >> a >> b;
+            if (b > best_score && a <= 10) {winner = i; best_score = b;}
         }
-        int mx[ind];
-        forn(i,ind){
-            mx[i] = b[ptr[i]];
-        }
-        sortArr(mx,ind);
-        forn(i,ind){
-            if (mx[ind-1] == b[ptr[i]]){
-                cot(ptr[i]+1);
-            }
-        }
+        cot(winner);
     }
     return 0;
 }
