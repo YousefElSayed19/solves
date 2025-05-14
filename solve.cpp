@@ -38,7 +38,8 @@ Free_Palestine
             cin>>x[i]>>y[i];
         }
         sortArr(x,4);
-        cot(pow(abs(x[0]-x[3]),2));
+        ll res=abs(x[0]-x[3]);
+        cot(res*res);
     }
 
     return 0;
