@@ -32,22 +32,6 @@ Free_Palestine
 {
     loop
     {
-        cit(a);
-        cit(b);
-        cit(c);
-        if (c%2){
-            if(b >a ){
-                cot("Second");
-            }else{
-                cot("First");
-            }
-        }else{
-            if(a >b){
-                cot("First");
-            }else{
-                cot("Second");
-            }
-        }
     }
     return 0;
 }
