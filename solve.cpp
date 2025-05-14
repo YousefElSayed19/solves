@@ -32,16 +32,22 @@ Free_Palestine
 {
     loop
     {
-        cit(n);
-        int res = 0;
-        for (ll pw = 1; pw <= n; pw = pw * 10 + 1) {
-            for (int d = 1; d <= 9;  d++) {
-                if (pw * d <= n) {
-                    res++;
-                }
+        cit(a);
+        cit(b);
+        cit(c);
+        if (c%2){
+            if(b >a ){
+                cot("Second");
+            }else{
+                cot("First");
+            }
+        }else{
+            if(a >b){
+                cot("First");
+            }else{
+                cot("Second");
             }
         }
-        cot(res);
     }
     return 0;
 }
