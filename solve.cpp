@@ -37,7 +37,6 @@ Free_Palestine
         cit(c);
         if (c%2){
             if(b >a ){
-                
                 cot("Second");
             }else{
                 cot("First");
