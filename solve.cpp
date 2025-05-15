@@ -30,6 +30,7 @@ using namespace std;
 Free_Palestine
 {
     loop
+    
     {
         int n,k;
         cin>>n>>k;
