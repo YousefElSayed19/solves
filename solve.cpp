@@ -37,6 +37,5 @@ Free_Palestine
         str.pop_back();
         cout << str + "i" << '\n';
     }
-    
     return 0;
 }
