@@ -37,14 +37,10 @@ Free_Palestine
     };
     loop
     {
-        ll x[4];
-        ll y[4];
-        forn(i,4){
-            cin>>x[i]>>y[i];
+        string s[3];
+        forn(i,3){
+            cin>>s[i];
         }
-        sortArr(x,4);
-        ll res=abs(x[0]-x[3]);
-        cot(res*res);
     }
     return 0;
 }
