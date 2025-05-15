@@ -32,17 +32,14 @@ Free_Palestine
 {
     loop
     {
-        string s[3];
-        forn(i,3){
-            cin>>s[i];
-        }
-        forn(i,3){
-            forn(j,3){
-                if(s[i][j]=='?'){
-                    cot(arr[i][j]);
-                    break;
-                }
-            }
+        int cnt[3] = {};
+        for (int i = 0; i < 9; i++) {
+            char c;
+            cin >> c;
+            if (c != '?') {cnt[c - 'A']++;}
+        }	
+        for (int i = 0; i < 3; i++) {
+            if (cnt[i] < 3) {cout << (char)('A' + i) << '\n';}
         }
     }
     return 0;
