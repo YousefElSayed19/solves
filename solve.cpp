@@ -30,6 +30,11 @@ using namespace std;
     }
 Free_Palestine
 {
+    char arr[3][3]={
+        {'A','B','C'},
+        {'C','A','B'},
+        {'B','C','A'}
+    };
     loop
     {
         ll x[4];
@@ -41,6 +46,5 @@ Free_Palestine
         ll res=abs(x[0]-x[3]);
         cot(res*res);
     }
-
     return 0;
 }
