@@ -42,6 +42,7 @@ Free_Palestine
         }
         else{
             cout<<"NO\n";
+            
         }
     }
     return 0;
