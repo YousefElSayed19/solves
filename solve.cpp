@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define Free_Palestine int main()
@@ -32,15 +31,11 @@ Free_Palestine
 {
     loop
     {
-        int cnt[3] = {};
-        for (int i = 0; i < 9; i++) {
-            char c;
-            cin >> c;
-            if (c != '?') {cnt[c - 'A']++;}
-        }	
-        for (int i = 0; i < 3; i++) {
-            if (cnt[i] < 3) {cout << (char)('A' + i) << '\n';}
-        }
+        string str;
+        cin >> str;
+        str.pop_back();
+        str.pop_back();
+        cout << str + "i" << '\n';
     }
     return 0;
 }
