@@ -30,11 +30,6 @@ using namespace std;
     }
 Free_Palestine
 {
-    char arr[3][3]={
-        {'A','B','C'},
-        {'C','A','B'},
-        {'B','C','A'}
-    };
     loop
     {
         string s[3];
