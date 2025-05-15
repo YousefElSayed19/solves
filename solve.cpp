@@ -41,6 +41,14 @@ Free_Palestine
         forn(i,3){
             cin>>s[i];
         }
+        forn(i,3){
+            forn(j,3){
+                if(s[i][j]=='?'){
+                    cot(arr[i][j]);
+                    break;
+                }
+            }
+        }
     }
     return 0;
 }
