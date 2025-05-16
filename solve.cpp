@@ -35,7 +35,6 @@ Free_Palestine
             cin>>arr[i];
         }
         int s= 5;
-        while(s--){
     }
     return 0;
 }
