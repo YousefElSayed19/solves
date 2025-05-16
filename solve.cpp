@@ -30,21 +30,11 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        cit(n);
-        int e =0, o=0;
-        forn(i,n){
-            cit(num);
-            if(num%2){
-                o+=num;
-            }else{
-                e+=num;
-            }
+        int arr[3];
+        forn(i,3){
+            cin>>arr[i];
         }
-        if(e>o){
-            YES;
-        }else{
-            NO;
-        }
+        
     }
     return 0;
 }
