@@ -40,7 +40,7 @@ Free_Palestine
                 c+=2;
                 arr[i]=c;
             }else{
-                arr[i]=--c;
+                arr[i]=c-1;
             }
         }
         forn(i,n-1){
