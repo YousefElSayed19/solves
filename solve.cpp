@@ -29,5 +29,8 @@ using namespace std;
     }
 Free_Palestine
 {
+    loop{
+        
+    }
     return 0;
 }
