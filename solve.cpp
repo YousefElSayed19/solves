@@ -38,7 +38,6 @@ Free_Palestine
         while(s--){
             sortArr(arr,3);
             arr[0]++;
-        }
     }
     return 0;
 }
