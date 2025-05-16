@@ -30,6 +30,9 @@ using namespace std;
 Free_Palestine
 {
     loop{
+        cit(n);
+        int a[n];
+        int b[n];
         
     }
     return 0;
