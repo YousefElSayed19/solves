@@ -39,7 +39,6 @@ Free_Palestine
             sortArr(arr,3);
             arr[0]++;
         }
-        cout<<arr[0] * arr[1] * arr[2]<<endl;
     }
     return 0;
 }
