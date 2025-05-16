@@ -33,7 +33,9 @@ Free_Palestine
     {
         cit(n);
         if (n%2){
-            
+            cot(-1);
+        }else{
+            for
         }
     }
     return 0;
