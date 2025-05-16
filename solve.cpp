@@ -30,22 +30,6 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        cit(n);
-        ll a[n];
-        ll b[n];
-        forn(i,n){
-            cin>>a[i];
-        }
-        forn(i,n){
-            cin>>b[i];
-        }
-        sortArr(a,n);
-        sortArr(b,n);
-        ll sum = 0;
-        for(int i =n-1 ; i>0;i--){
-            sum += max(a[i]-a[0],b[i]-b[0]);
-        }
-        cot(sum);
     }
     return 0;
 }
