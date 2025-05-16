@@ -33,7 +33,6 @@ Free_Palestine
         int arr[3];
         forn(i,3){
             cin>>arr[i];
-        }
     }
     return 0;
 }
