@@ -29,6 +29,5 @@ using namespace std;
     }
 Free_Palestine
 {
-    
     return 0;
 }
