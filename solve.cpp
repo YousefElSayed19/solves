@@ -30,8 +30,7 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        int arr[3];
-        forn(i,3){
+        
     }
     return 0;
 }
