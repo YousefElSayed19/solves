@@ -32,7 +32,6 @@ Free_Palestine
     loop{
         int arr[3];
         forn(i,3){
-            cin>>arr[i];
     }
     return 0;
 }
