@@ -47,6 +47,5 @@ Free_Palestine
             cout<<arr[i]<<" ";
         }
         cout<<arr[n-1]<<endl;
-    }
     return 0;
 }
