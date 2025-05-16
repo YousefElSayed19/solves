@@ -37,7 +37,6 @@ Free_Palestine
         int s= 5;
         while(s--){
             sortArr(arr,3);
-            arr[0]++;
     }
     return 0;
 }
