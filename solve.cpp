@@ -34,7 +34,12 @@ Free_Palestine
         forn(i,3){
             cin>>arr[i];
         }
-        
+        int s= 5;
+        while(s--){
+            sortArr(arr,3);
+            arr[0]++;
+        }
+        cout<<arr[0] * arr[1] * arr[2]<<endl;
     }
     return 0;
 }
