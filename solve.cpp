@@ -33,9 +33,15 @@ Free_Palestine
     if (n%2){
         cot(-1);
     }else{
+        int c=0;
         int arr[n];
-        forn(i,n){
-            arr[i]=i+1;
+        for(int i = 0 ;i<=n;i++){  
+            if(i%2==0){
+                c+=2;
+                arr[i]=c;
+            }else{
+                arr[i]=--c;
+            }
         }
         forn(i,n-1){
             cout<<arr[i]<<" ";
