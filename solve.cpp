@@ -45,6 +45,5 @@ Free_Palestine
         }
         forn(i,n-1){
             cout<<arr[i]<<" ";
-        }
     return 0;
 }
