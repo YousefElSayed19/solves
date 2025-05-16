@@ -43,6 +43,5 @@ Free_Palestine
                 arr[i]=c-1;
             }
         }
-        forn(i,n-1){
     return 0;
 }
