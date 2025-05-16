@@ -29,14 +29,18 @@ using namespace std;
     }
 Free_Palestine
 {
-    loop
-    {
-        cit(n);
-        if (n%2){
-            cot(-1);
-        }else{
-            for
+    cit(n);
+    if (n%2){
+        cot(-1);
+    }else{
+        int arr[n];
+        forn(i,n){
+            arr[i]=i+1;
         }
+        forn(i,n-1){
+            cout<<arr[i]<<" ";
+        }
+        cout<<arr[n-1]<<endl;
     }
     return 0;
 }
