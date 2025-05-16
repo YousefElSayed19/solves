@@ -29,12 +29,6 @@ using namespace std;
     }
 Free_Palestine
 {
-    cit(n);
-    if (n%2){
-        cot(-1);
-    }else{
-        int c=0;
-        int arr[n];
-       
+    
     return 0;
 }
