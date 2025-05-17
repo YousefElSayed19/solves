@@ -1,35 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-#define Free_Palestine int main()
-#define loop  \
-    int t;    \
-    cin >> t; \
-    while (t--)
-#define TRUE while (true)
-#define YES cout << "YES" << endl
-#define NO cout << "NO" << endl
-#define forn(i, n) for (int i = 0; i < int(n); i++)
-#define sortStr(word) sort(word.begin(), word.end())
-#define sortArr(arr, n) sort(arr, arr + n)
-#define ll long long
-#define ld long double
-#define cot(word) cout << word << endl
-#define cit(word) \
-    ll word;      \
-    cin >> word
-#define CHECK  \
-    if (check) \
-    {          \
-        YES;   \
-    }          \
-    else       \
-    {          \
-        NO;    \
+int main() {
+    int n, count = 0;
+    cin >> n;
+    for (int l = 1; l < n; ++l) {
+        if (n % l == 0) {
+            count++;
+        }
     }
-Free_Palestine
-{
-    loop{
-    }
+    cout << count << endl;
     return 0;
 }
