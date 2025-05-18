@@ -30,7 +30,8 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        
+        cit(l);
+        cit(r);
     }
     return 0;
 }
