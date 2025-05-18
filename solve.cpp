@@ -32,6 +32,7 @@ Free_Palestine
     loop{
         cit(l);
         cit(r);
+        if(2*l>r)
     }
     return 0;
 }
