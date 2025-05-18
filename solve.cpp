@@ -18,7 +18,7 @@ using namespace std;
 #define cit(word) \
     ll word;      \
     cin >> word
-#define CHECK  \
+#define CHECK  \s
     if (check) \
     {          \
         YES;   \
