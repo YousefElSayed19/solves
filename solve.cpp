@@ -34,7 +34,7 @@ Free_Palestine
         cit(k);
         int b[n];
         int c[m];s
-        forn(i,n){
+        (i,n){
             cin>>b[i];
         }
         forn(i,m){
