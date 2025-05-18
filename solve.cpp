@@ -48,7 +48,6 @@ Free_Palestine
                     s++;
                 }
             }
-        }
     }
     return 0;
 }
