@@ -42,12 +42,6 @@ Free_Palestine
             cin>>c[i];
         }
         int s =0;
-        forn(i,n){
-            forn(j,m){
-                if(b[i]+c[j] <= k){
-                    s++;
-                }
-            }
     }
     return 0;
 }
