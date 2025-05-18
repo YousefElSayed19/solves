@@ -34,13 +34,7 @@ Free_Palestine
         cit(k);
         int b[n];
         int c[m];s
-        (i,n){
-            cin>>b[i];
-        }
-        forn(i,m){
-            cin>>c[i];
-        }
-        int s =0;
+        
     }
     return 0;
 }
