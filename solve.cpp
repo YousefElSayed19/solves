@@ -31,7 +31,6 @@ Free_Palestine
 {
     loop{
         cit(n);
-        cit(m);
         cit(k);
         int b[n];
         int c[m];
