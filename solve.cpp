@@ -33,8 +33,6 @@ Free_Palestine
         cit(n);
         cit(k);
         int b[n];
-        int c[m];s
-        
     }
     return 0;
 }
