@@ -28,7 +28,7 @@ using namespace std;
         NO;    \
     }
 Free_Palestine
-{
+{s
     loop{
         cit(l);
         cit(r);
