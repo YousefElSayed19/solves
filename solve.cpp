@@ -35,7 +35,21 @@ Free_Palestine
         cit(k);
         int b[n];
         int c[m];
-        
+        forn(i,n){
+            cin>>b[i];
+        }
+        forn(i,m){
+            cin>>c[i];
+        }
+        int s =0;
+        forn(i,n){
+            forn(j,m){
+                if(b[i]+c[j] <= k){
+                    s++;
+                }
+            }
+        }
+        cot(s);
     }
     return 0;
 }
