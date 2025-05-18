@@ -33,9 +33,9 @@ Free_Palestine
         cit(l);
         cit(r);
         if(2*l>r){
-            cout<<-1<<-1<<endl;
+            cout<<-1<<" "<<-1<<endl;
         }else{
-            cout<<l<<2*l<<endl;
+            cout<<l<<" "<<l*2<<endl;
         }
     }
     return 0;
