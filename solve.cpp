@@ -29,7 +29,6 @@ using namespace std;
     }
 Free_Palestine
 {
-    ios::sync_with_stdio(false); cin.tie(0);
     loop{
         int n, x;
         cin >> n >> x;
