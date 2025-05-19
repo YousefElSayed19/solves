@@ -27,7 +27,7 @@ using namespace std;
     {          \
         NO;    \
     }
-#define ISO ios::sync_with_stdio(false); cin.tie(0);
+#define ISO ios::sync_with_stdio(false); cin.tie(0);cout.tie(0);
 Free_Palestine 
 {
     ISO;
