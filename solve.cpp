@@ -27,7 +27,7 @@ using namespace std;
     {          \
         NO;    \
     }
-Free_Palestine 
+Free_Palestine
 {
     loop{
         cit(a);
