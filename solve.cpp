@@ -27,9 +27,10 @@ using namespace std;
     {          \
         NO;    \
     }
-Free_Palestine
+#define ISO ios::sync_with_stdio(false); cin.tie(0);
+Free_Palestine 
 {
-    ios::sync_with_stdio(false); cin.tie(0);
+    ISO;
     loop{
         int n, x;
         cin >> n >> x;
