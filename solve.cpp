@@ -27,15 +27,14 @@ using namespace std;
     {          \
         NO;    \
     }
-#define ISO ios::sync_with_stdio(false); cin.tie(0);cout.tie(0);
 Free_Palestine 
 {
-    ISO;
+    ios::sync_with_stdio(false); cin.tie(0);
     loop{
         cit(a);
         cit(b);
         cit(c);
-        cot(max(a,b,c) - min(a,b,c));
+        cot(max({a,b,c}) - min({a,b,c}));
     }
     return 0;
 }
