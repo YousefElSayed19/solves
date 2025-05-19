@@ -3,7 +3,7 @@ using namespace std;
 
 #define Free_Palestine int main()
 #define loop  \
-    int t;    \
+    ll t;    \
     cin >> t; \
     while (t--)
 #define TRUE while (true)
@@ -16,7 +16,7 @@ using namespace std;
 #define ld long double
 #define cot(word) cout << word << endl
 #define cit(word) \
-    ll word;      \
+    int word;      \
     cin >> word
 #define CHECK  \
     if (check) \
