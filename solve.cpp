@@ -30,7 +30,12 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        cot()
+        cit(n);
+        cit(m);
+        int arr[7]={0};
+        forn(i,n){
+            
+        }
     }
     return 0;
 }
