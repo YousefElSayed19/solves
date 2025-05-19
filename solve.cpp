@@ -30,7 +30,7 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        cot('b'-96);
+        cot()
     }
     return 0;
 }
