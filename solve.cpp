@@ -30,26 +30,10 @@ using namespace std;
 Free_Palestine
 {
     loop{
+        cit(w);
+        cit(h);
         cit(n);
-        cit(m);
-        string s;
-        cin>>s;
-        int arr[7]={0};
-        forn(i,n){
-            arr[s[i]-65]++;
-        }
-        forn(i,m){
-            forn(j,7){
-                arr[j]--;
-            }
-        }
-        int sum = 0;
-        forn(i,7){
-            if(arr[i]<0){
-                sum+=abs(arr[i]);
-            } 
-        }
-        cot(sum);
+        
     }
     return 0;
 }
