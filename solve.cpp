@@ -2,6 +2,7 @@
 using namespace std;
 
 #define Free_Palestine int main()
+#define ll long long
 #define loop  \
     ll t;    \
     cin >> t; \
@@ -12,7 +13,6 @@ using namespace std;
 #define forn(i, n) for (int i = 0; i < int(n); i++)
 #define sortStr(word) sort(word.begin(), word.end())
 #define sortArr(arr, n) sort(arr, arr + n)
-#define ll long long
 #define ld long double
 #define cot(word) cout << word << endl
 #define cit(word) \
