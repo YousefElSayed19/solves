@@ -32,16 +32,10 @@ Free_Palestine
 {
     ISO;
     loop{
-        int n, x;
-        cin >> n >> x;
-        int prev = 0, ans = 0;
-        for (int i = 0; i < n; ++i) {
-            int a; cin >> a;
-            ans = max(ans, a - prev);
-            prev = a;
-        }
-        ans = max(ans, 2 * (x - prev));
-        cout << ans << '\n';
+        cit(a);
+        cit(b);
+        cit(c);
+        cot(max(a,b,c) - min(a,b,c));
     }
     return 0;
 }
