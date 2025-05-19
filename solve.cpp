@@ -32,8 +32,13 @@ Free_Palestine
     loop{
         cit(a);
         cit(b);
-        cit(c);
-        cot(max({a,b,c}) - min({a,b,c}));
+        if(a==b){
+            cot(0);
+        }else if(a> b && (a-b) %2 ==0 || a<b && (b-a)%2!=0){
+            cot(1);
+        }else{
+            cot(2);
+        }
     }
     return 0;
 }
