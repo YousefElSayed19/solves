@@ -39,8 +39,8 @@ Free_Palestine
             ans = max(ans, a - prev);
             prev = a;
         }
-    }
         ans = max(ans, 2 * (x - prev));
+    }
         cout << ans << '\n';
     return 0;
 }
