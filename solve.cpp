@@ -43,13 +43,13 @@ Free_Palestine
                 arr[j]--;
             }
         }
-        int s = 0;
+        int sum = 0;
         forn(i,7){
             if(arr[i]<0){
-                s+=abs(arr[i]);
+                sum+=abs(arr[i]);
             }
         }
-        cot(s);
+        cot(sum);
     }
     return 0;
 }
