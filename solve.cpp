@@ -32,9 +32,9 @@ Free_Palestine
     ios::sync_with_stdio(false); cin.tie(0);
     loop{
         int n, x;
+        cin >> n >> x;
 
     }
-        cin >> n >> x;
         int prev = 0, ans = 0;
         for (int i = 0; i < n; ++i) {
         int a; cin >> a;
