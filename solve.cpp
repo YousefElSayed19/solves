@@ -29,14 +29,19 @@ using namespace std;
     }
 Free_Palestine
 {
+    ios::sync_with_stdio(false); cin.tie(0);
     loop{
-        cit(l);
-        cit(r);
-        if(2*l>r){
-            cout<<-1<<" "<<-1<<endl;
-        }else{
-            cout<<l<<" "<<l*2<<endl;
-        }
+        
     }
+        int n, x;
+        cin >> n >> x;
+        int prev = 0, ans = 0;
+        for (int i = 0; i < n; ++i) {
+        int a; cin >> a;
+        ans = max(ans, a - prev);
+        prev = a;
+        }
+        ans = max(ans, 2 * (x - prev));
+        cout << ans << '\n';
     return 0;
 }
