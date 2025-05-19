@@ -30,7 +30,17 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        cot('B'-65)
+        cit(n);
+        cit(m);
+        string s;
+        cin>>s;
+        int arr[7]={0};
+        forn(i,n){
+            arr[s[i]-65]++;
+        }
+        forn(i,n){
+            cot(arr[i]);
+        }
     }
     return 0;
 }
