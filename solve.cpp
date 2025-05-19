@@ -38,6 +38,11 @@ Free_Palestine
         forn(i,n){
             arr[s[i]-65]++;
         }
+        forn(i,m){
+            forn(j,7){
+                arr[i]--;
+            }
+        }
         forn(i,7){
             cot(arr[i]);
         }
