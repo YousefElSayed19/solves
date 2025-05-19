@@ -30,15 +30,7 @@ using namespace std;
 Free_Palestine
 {
     loop{
-        cit(a);
-        cit(b);
-        if(a==b){
-            cot(0);
-        }else if(a> b && (a-b) %2 ==0 || a<b && (b-a)%2!=0){
-            cot(1);
-        }else{
-            cot(2);
-        }
+        cot('b'-96);
     }
     return 0;
 }
