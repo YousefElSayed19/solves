@@ -47,7 +47,7 @@ Free_Palestine
         forn(i,7){
             if(arr[i]<0){
                 sum+=abs(arr[i]);
-            }
+            } 
         }
         cot(sum);
     }
