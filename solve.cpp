@@ -32,10 +32,13 @@ Free_Palestine
     loop{
         cit(n);
         cit(m);
+        string s;
+        cin>>s;
         int arr[7]={0};
         forn(i,n){
-            
+            arr[s[i]-97]++;
         }
+    
     }
     return 0;
 }
