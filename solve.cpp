@@ -28,7 +28,7 @@ using namespace std;
         NO;    \
     }
 Free_Palestine
-{
+{ 
     ios::sync_with_stdio(false); cin.tie(0);
     loop{
         int n, x;
