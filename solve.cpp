@@ -40,12 +40,16 @@ Free_Palestine
         }
         forn(i,m){
             forn(j,7){
-                arr[i]--;
+                arr[j]--;
             }
         }
+        int s = 0;
         forn(i,7){
-            cot(arr[i]);
+            if(arr[i]<0){
+                s+=abs(arr[i]);
+            }
         }
+        cot(s);
     }
     return 0;
 }
