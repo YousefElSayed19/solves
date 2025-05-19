@@ -37,8 +37,8 @@ Free_Palestine
         for (int i = 0; i < n; ++i) {
             int a; cin >> a;
             ans = max(ans, a - prev);
+            prev = a;
     }
-        prev = a;
         }
         ans = max(ans, 2 * (x - prev));
         cout << ans << '\n';
