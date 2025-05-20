@@ -3,7 +3,7 @@ using namespace std;
 #define Free_Palestine int main()
 #define ll long long
 #define loop  \
-    ll t;    \
+    ll t;     \
     cin >> t; \
     while (t--)
 #define TRUE while (true)
@@ -15,7 +15,7 @@ using namespace std;
 #define ld long double
 #define cot(word) cout << word << endl
 #define cit(word) \
-    int word;      \
+    int word;     \
     cin >> word
 #define CHECK  \
     if (check) \
@@ -27,28 +27,35 @@ using namespace std;
         NO;    \
     }
 
-void solve(){
-    cit(w);
-    cit(h);
-    cit(n);
-    ll sum = 1;
-    while(w%2 == 0){
-        w/=2;
-        sum*=2;
-    }
-    while(h%2 == 0){
-        h/=2;
-        sum*=2;
-    }
-    if(sum >=n){
-        YES;
+void solve()
+{
+    string s;
+    cin >> s;
+    int res= (s[1] - '0') + ((s[0] - '0') * 10);
+    if(res>0&&res<12){
+        if(res<10){
+            cout<<0<<res<<":"<<s[3]<<s[4]<<" AM"<<endl;
+        }else{
+            cout<<res<<":"<<s[3]<<s[4]<<" AM"<<endl;
+        }
     }else{
-        NO;
+        if(res==0){
+            cout<<12<<":"<<s[3]<<s[4]<<" AM"<<endl;
+        }
+        else if(res==12){
+            cout<<res<<":"<<s[3]<<s[4]<<" PM"<<endl;
+        }
+        else if(res-12 <10){
+            cout<<0<<res-12<<":"<<s[3]<<s[4]<<" PM"<<endl;
+        }else{
+            cout<<res-12<<":"<<s[3]<<s[4]<<" PM"<<endl;
+        }
     }
 }
 Free_Palestine
 {
-    loop{
+    loop
+    {
         solve();
     }
     return 0;
