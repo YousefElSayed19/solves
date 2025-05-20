@@ -36,8 +36,8 @@ void solve(){
         w/=2;
         sum*=2;
     }
-    while(w%2 == 0){
-        w/=2;
+    while(h%2 == 0){
+        h/=2;
         sum*=2;
     }
 }
