@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define Free_Palestine int main()
+#define Palestine void solve()
 #define ll long long
 #define loop  \
     ll t;    \
@@ -27,7 +28,7 @@ using namespace std;
         NO;    \
     }
 
-void solve(){
+Palestine {
     cit(w);
     cit(h);
     cit(n);
@@ -40,11 +41,16 @@ void solve(){
         h/=2;
         sum*=2;
     }
+    if(sum >=n){
+        YES;
+    }else{
+        NO;
+    }
 }
 Free_Palestine
 {
     loop{
-        solve()
+        solve();
     }
     return 0;
 }
