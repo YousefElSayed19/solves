@@ -28,7 +28,7 @@ using namespace std;
     }
 
 void solve()
-{ 
+{       
     cit(x);
     cout << 1 << " " << x - 1 << endl;
 }
