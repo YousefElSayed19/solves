@@ -33,7 +33,7 @@ void solve()
     cout << 1 << " " << x - 1 << endl;
 }
 Free_Palestine
-
+{
     loop
     {
         solve();
