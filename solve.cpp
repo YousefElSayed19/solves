@@ -27,7 +27,7 @@ using namespace std;
         NO;    \
     }
 
-void solve() 
+void solve()
 {
     string s;
     cin>>s;
