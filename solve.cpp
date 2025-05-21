@@ -29,28 +29,7 @@ using namespace std;
 
 void solve()
 {
-    string s;
-    cin >> s;
-    int res= (s[1] - '0') + ((s[0] - '0') * 10);
-    if(res>0&&res<12){
-        if(res<10){
-            cout<<0<<res<<":"<<s[3]<<s[4]<<" AM"<<endl;
-        }else{
-            cout<<res<<":"<<s[3]<<s[4]<<" AM"<<endl;
-        }
-    }else{
-        if(res==0){
-            cout<<12<<":"<<s[3]<<s[4]<<" AM"<<endl;
-        }
-        else if(res==12){
-            cout<<res<<":"<<s[3]<<s[4]<<" PM"<<endl;
-        }
-        else if(res-12 <10){
-            cout<<0<<res-12<<":"<<s[3]<<s[4]<<" PM"<<endl;
-        }else{
-            cout<<res-12<<":"<<s[3]<<s[4]<<" PM"<<endl;
-        }
-    }
+    
 }
 Free_Palestine
 {
