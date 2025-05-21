@@ -29,19 +29,8 @@ using namespace std;
 
 void solve()
 {
-    cit(a);
-    cit(b);
-    cit(c);
-    int d1 = a - 1;
-    int d2 = abs(b - c) + c - 1;
-    int ans = 0;
-    if (d1 <= d2){
-        ans += 1;
-    }
-    if (d1 >= d2){
-        ans += 2;
-    }
-    cot(ans);
+    cit(x);
+    cout << 1 << " " << x - 1 << endl;
 }
 Free_Palestine
 {
