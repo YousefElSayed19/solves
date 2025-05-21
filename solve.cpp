@@ -31,9 +31,17 @@ void solve()
 {
     string s;
     cin>>s;
-    if(s.length()%2==0){
-        
+    string ns="";
+    for(int i = s.length()-1;i>=0;i--){
+        if(s[i]=='q'){
+            ns+='p';
+        }else if (s[i]=='p'){
+            ns+='q';
+        }else{
+            ns+='w';
+        }
     }
+    cot(ns);
 }
 Free_Palestine
 {
