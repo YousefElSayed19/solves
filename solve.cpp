@@ -32,13 +32,16 @@ void solve()
     cit(a);
     cit(b);
     cit(c);
-    if(a==1){
-        cot(1);
-    }else if(b==1){
-        cot(3);
-    }else{
-        cot(2);
+    int d1 = a - 1;
+    int d2 = abs(b - c) + c - 1;
+    int ans = 0;
+    if (d1 <= d2){
+        ans += 1;
     }
+    if (d1 >= d2){
+        ans += 2;
+    }
+    cot(ans);
 }
 Free_Palestine
 {
