@@ -31,7 +31,9 @@ void solve()
 {
     string s;
     cin>>s;
-    
+    if(s.length()%2==0){
+        
+    }
 }
 Free_Palestine
 {
