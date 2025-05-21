@@ -29,19 +29,16 @@ using namespace std;
 
 void solve()
 {
-    string s;
-    cin>>s;
-    string ns="";
-    for(int i = s.length()-1;i>=0;i--){
-        if(s[i]=='q'){
-            ns+='p';
-        }else if (s[i]=='p'){
-            ns+='q';
-        }else{
-            ns+='w';
-        }
+    cit(a);
+    cit(b);
+    cit(c);
+    if(a==1){
+        cot(1);
+    }else if(b==1){
+        cot(3);
+    }else{
+        cot(2);
     }
-    cot(ns);
 }
 Free_Palestine
 {
