@@ -41,7 +41,6 @@ void solve()
             b+=a;
             c++;
         }
-        cout<<a<<" "<<b<<endl;
     }
     cot(c);
 }
