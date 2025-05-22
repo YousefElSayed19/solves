@@ -31,7 +31,7 @@ void solve()
 {      
     cit(n);
     cit(m);
-    cout << min(2, n - 1) * m << endl;
+    cout << min(2, n - 1) * m << endl; 
 }
 Free_Palestine
 {
