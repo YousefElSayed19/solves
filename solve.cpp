@@ -30,7 +30,10 @@ using namespace std;
 void solve()
 {
     cit(n);
-    
+    int arr[n];
+    forn(i,n){
+        arr[i]=i+1;
+    }
 }
 Free_Palestine
 {
