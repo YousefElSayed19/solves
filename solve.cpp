@@ -29,8 +29,9 @@ using namespace std;
 
 void solve()
 {      
-    cit(x);
-    cout << 1 << " " << x - 1 << endl;
+    cit(n);
+    cit(m);
+    cout << min(2, n - 1) * m << endl;
 }
 Free_Palestine
 {
