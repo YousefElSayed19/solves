@@ -30,10 +30,11 @@ using namespace std;
 void solve()
 {
     cit(n);
-    int arr[n];
-    forn(i,n){
-        arr[i]=i+1;
+    for (int i = 2; i <= n; i++)
+    {
+        cout << i << " ";
     }
+    cout<<1<<endl;
 }
 Free_Palestine
 {
