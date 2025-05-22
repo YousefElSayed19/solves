@@ -32,6 +32,9 @@ void solve()
     cit(a);
     cit(b);
     cit(n);
+    while(a<n || b <n){
+        
+    }
 }
 Free_Palestine
 {
