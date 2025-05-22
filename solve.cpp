@@ -29,20 +29,7 @@ using namespace std;
 
 void solve()
 {
-    cit(a);
-    cit(b);
     cit(n);
-    int c =0;
-    while(a<=n && b <=n){
-        if(a+b+b > b+a+a){
-            a+=b;
-            c++;
-        }else{
-            b+=a;
-            c++;
-        }
-    }
-    cot(c);
 }
 Free_Palestine
 {
