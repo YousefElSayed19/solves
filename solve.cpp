@@ -33,7 +33,7 @@ void solve()
     cit(b);
     cit(n);
     int c =0;
-    while(a<n && b <n){
+    while(a<=n && b <=n){
         if(a+b+b > b+a+a){
             a+=b;
             c++;
@@ -41,6 +41,7 @@ void solve()
             b+=a;
             c++;
         }
+        cout<<a<<" "<<b<<endl;
     }
     cot(c);
 }
