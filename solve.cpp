@@ -28,8 +28,7 @@ using namespace std;
     }
 
 void solve()
-{      
-    
+{     
 }
 Free_Palestine
 {
