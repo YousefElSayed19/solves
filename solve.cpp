@@ -42,7 +42,6 @@ void solve()
             c++;
         }
     }
-    cot(c);
 }
 Free_Palestine
 {
