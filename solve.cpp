@@ -32,14 +32,17 @@ void solve()
     cit(a);
     cit(b);
     cit(n);
-    while(a<n || b <n){
+    int c =0;
+    while(a<n && b <n){
         if(a+b+b > b+a+a){
             a+=b;
+            c++;
         }else{
             b+=a;
+            c++;
         }
     }
-    cout<<a<<" "<<endl;
+    cot(c);
 }
 Free_Palestine
 {
