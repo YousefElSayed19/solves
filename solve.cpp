@@ -34,7 +34,12 @@ void solve()
         cot("##");
         cot("##");
     }else{
-        char arr[n*2][n*2]={'.'};
+        char arr[n*2][n*2];
+        forn(i,n){
+            forn(j,n){
+                arr[i][j]='.';
+            }
+        }
         forn(i,n){
             forn(j,n){
                 cot(arr[i][j]);
