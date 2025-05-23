@@ -36,9 +36,7 @@ void solve()
     }else{
         int c = 1 ;
         forn(i,n){
-
-    }
-
+        }
     }
 }
 Free_Palestine
