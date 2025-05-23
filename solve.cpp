@@ -30,9 +30,14 @@ using namespace std;
 void solve()
 {
     cit(n);
-    if(n==1)
-    int c = 1 ;
-    forn(i,n){
+    if(n==1){
+        cot("##");
+        cot("##");
+    }else{
+        int c = 1 ;
+        forn(i,n){
+
+    }
 
     }
 }
