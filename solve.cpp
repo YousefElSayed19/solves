@@ -34,7 +34,6 @@ void solve()
     {
         cout << i << " ";
     }
-    cout<<1<<endl;
 }
 Free_Palestine
 {
