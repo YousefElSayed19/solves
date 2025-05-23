@@ -42,6 +42,7 @@ void solve()
             sum+=arr[i];
             c++;
         }else if(arr[i]==0 && c>0){
+            sum--;
             c++;
         }
     }
