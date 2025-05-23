@@ -36,6 +36,9 @@ void solve()
     }else{
         int c = 1 ;
         forn(i,n){
+            forn(j,n*2){
+
+            }
         }
     }
 }
