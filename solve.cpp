@@ -37,8 +37,10 @@ void solve()
     }
     int c = 0;
     forn(i,n){
-        if(i+1>=k){
-            c+=i;
+        if(arr[i]>=k){
+            c+=arr[i];
+        }else if(){
+
         }
     }
 }
