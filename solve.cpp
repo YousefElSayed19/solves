@@ -34,11 +34,17 @@ void solve()
         cot("##");
         cot("##");
     }else{
-        int c = 1 ;
+        int c = 0 ;
         forn(i,n){
-            forn(j,n*2){
-
+            forn(j,n){
+                if(c%2==0){
+                    cout<<"##";
+                }else{
+                    cout<<"..";
+                }
+                c++;
             }
+            cot("");
         }
     }
 }
