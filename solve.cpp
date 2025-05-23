@@ -37,7 +37,9 @@ void solve()
     }
     int c = 0;
     forn(i,n){
-        if(){}
+        if(i+1>=k){
+            c+=i;
+        }
     }
 }
 Free_Palestine
