@@ -34,8 +34,8 @@ void solve()
         cot("##");
         cot("##");
     }else{
-        int c = 0 ;
         forn(i,n){
+            int c = 0 ;
             forn(j,n){
                 if(c%2==0){
                     cout<<"##";
@@ -44,7 +44,6 @@ void solve()
                 }
                 c++;
             }
-            cot("");
         }
     }
 }
