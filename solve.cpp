@@ -40,8 +40,8 @@ void solve()
                 arr[i][j]='.';
             }
         }
-        forn(i,n){
-            forn(j,n){
+        forn(i,n*2){
+            forn(j,n*2){
                 cot(arr[i][j]);
             }
         }
