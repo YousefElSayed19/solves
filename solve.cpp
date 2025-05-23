@@ -30,6 +30,11 @@ using namespace std;
 void solve()
 {
     cit(n);
+    if(n==1)
+    int c = 1 ;
+    forn(i,n){
+
+    }
 }
 Free_Palestine
 {
