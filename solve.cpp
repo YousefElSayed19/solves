@@ -35,12 +35,14 @@ void solve()
     forn(i,n){
         cin>>arr[i];
     }
+    int sum=0;
     int c = 0;
     forn(i,n){
         if(arr[i]>=k){
-            c+=arr[i];
-        }else if(){
-
+            sum+=arr[i];
+            c++;
+        }else if(arr[i]==0 && c>0){
+            c++;
         }
     }
 }
