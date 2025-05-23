@@ -36,7 +36,7 @@ void solve()
         cin>>arr[i];
     }
     int c = 0;
-    for(i,n){
+    forn(i,n){
         if()
     }
 }
