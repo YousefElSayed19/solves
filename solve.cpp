@@ -32,6 +32,9 @@ void solve()
     cit(n);
     cit(k);
     int arr[n];
+    forn(i,n){
+        cin>>arr[i];
+    }
 }
 Free_Palestine
 {
