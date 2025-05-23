@@ -30,6 +30,8 @@ using namespace std;
 void solve()
 {
     cit(n);
+    cit(k);
+    int arr[n];
 }
 Free_Palestine
 {
