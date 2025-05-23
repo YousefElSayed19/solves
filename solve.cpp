@@ -40,7 +40,6 @@ void solve()
         if(i+1>=k){
             c+=i;
         }
-        
     }
 }
 Free_Palestine
