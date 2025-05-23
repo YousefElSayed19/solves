@@ -40,7 +40,7 @@ void solve()
     forn(i,n){
         if(arr[i]>=k){
             sum+=arr[i];
-        }else if(arr[i]==0 && c>0){
+        }else if(arr[i]==0 && sum>0){
             sum--;
             c++;
         }
