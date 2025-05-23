@@ -35,6 +35,10 @@ void solve()
     forn(i,n){
         cin>>arr[i];
     }
+    int c = 0;
+    for(i,n){
+        if()
+    }
 }
 Free_Palestine
 {
