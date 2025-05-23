@@ -35,8 +35,8 @@ void solve()
         cot("##");
     }else{
         char arr[n*2][n*2];
-        forn(i,n){
-            forn(j,n){
+        forn(i,n*2){
+            forn(j,n*2){
                 arr[i][j]='.';
             }
         }
