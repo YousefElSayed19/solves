@@ -29,7 +29,8 @@ using namespace std;
 
 void solve()
 {
-    
+    string n;
+    cin >>n;
 }
 Free_Palestine
 {
