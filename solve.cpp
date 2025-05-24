@@ -33,7 +33,7 @@ void solve()
     cin >>n;
     string arr[5];
     forn(i,5){
-        
+        cin>>arr[i];
     }
     bool check = false;
     forn(i,5){
