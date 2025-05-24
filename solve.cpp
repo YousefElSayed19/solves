@@ -29,25 +29,9 @@ using namespace std;
 
 void solve()
 {
-    string n;
-    cin >>n;
-    string arr[5];
-    forn(i,5){
-        cin>>arr[i];
-    }
-    bool check = false;
-    forn(i,5){
-        forn(j,2){
-            if(n[j]==arr[i][j]){
-                check = true;
-                break;
-            }
-        }
-        if(check){
-            break;
-        }
-    }
-    CHECK;
+    cit(a);
+    cit(b);
+    cit(c);
 }
 Free_Palestine
 {
