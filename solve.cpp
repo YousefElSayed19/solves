@@ -33,7 +33,7 @@ void solve()
     cit(b);
     cit(c);
     if(a<b){
-        cout<<(((a+b))-a) /2<<endl;
+        cout<<(((a+b)/2)-a) /2<<endl;
     }else{
         cout<<(((a+b)/2)-b) /2<<endl;
     }
