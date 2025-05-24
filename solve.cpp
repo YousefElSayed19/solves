@@ -15,7 +15,7 @@ using namespace std;
 #define sortArr(arr, n) sort(arr, arr + n)
 #define cot(word) cout << word << endl
 #define cit(word) \
-    ld word;     \
+    ll word;     \
     cin >> word
 #define CHECK  \
     if (check) \
@@ -32,11 +32,7 @@ void solve()
     cit(a);
     cit(b);
     cit(c);
-    if(a<b){
-        cout<<(((a+b)/2)-a) /2<<endl;
-    }else{
-        cout<<(((a+b)/2)-b) /2<<endl;
-    }
+    int
 }
 Free_Palestine
 {
