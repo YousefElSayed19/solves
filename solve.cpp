@@ -31,6 +31,7 @@ void solve()
 {
     string n;
     cin >>n;
+    string arr[5];
 }
 Free_Palestine
 {
