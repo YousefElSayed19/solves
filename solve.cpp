@@ -32,6 +32,7 @@ void solve()
     string n;
     cin >>n;
     string arr[5];
+    bool check = false;
     forn(i,5){
         forn(j,2){
             if(n[i])
