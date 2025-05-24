@@ -32,7 +32,7 @@ void solve()
     cit(a);
     cit(b);
     cit(c);
-    int
+    int d =abs(a-b);
 }
 Free_Palestine
 {
