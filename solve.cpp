@@ -40,8 +40,11 @@ void solve()
                 break;
             }
         }
-        CHECK;
+        if(check){
+            break;
+        }
     }
+    CHECK;
 }
 Free_Palestine
 {
