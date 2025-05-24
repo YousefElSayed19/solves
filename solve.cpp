@@ -35,8 +35,12 @@ void solve()
     bool check = false;
     forn(i,5){
         forn(j,2){
-            if(n[i])
+            if(n[j]==arr[i][j]){
+                check = true;
+                break;
+            }
         }
+        CHECK;
     }
 }
 Free_Palestine
