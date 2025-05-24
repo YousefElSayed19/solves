@@ -51,6 +51,9 @@ void solve()
 }
 Free_Palestine
 {
-    solve();
+    loop
+    {
+        solve();
+    }
     return 0;
 }
