@@ -33,7 +33,7 @@ void solve()
     cit(b);
     cit(c);
     float d =abs(a-b);
-    cout<<d/(c*2)<<endl;
+    cout<<ceil(d/(c*2))<<endl;
 }
 Free_Palestine
 {
