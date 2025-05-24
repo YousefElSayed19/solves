@@ -30,22 +30,7 @@ using namespace std;
 void solve()
 {
     cit(n);
-    if(n==1){
-        cot("##");
-        cot("##");
-    }else{
-        char arr[n*2][n*2]={'.'};
-        // forn(i,n*2){
-        //     forn(j,n*2){
-        //         arr[i][j]='.';
-        //     }
-        // }
-        forn(i,n*2){
-            forn(j,n*2){
-                cot(arr[i][j]);
-            }
-        }
-    }
+    cit(m);
 }
 Free_Palestine
 {
