@@ -32,8 +32,8 @@ void solve()
     cit(a);
     cit(b);
     cit(c);
-    int d =abs(a-b);
-    cout<<d/(c*2)+1s<<endl;
+    float d =abs(a-b);
+    cout<<d/(c*2)<<endl;
 }
 Free_Palestine
 {
