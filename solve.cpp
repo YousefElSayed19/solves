@@ -32,7 +32,9 @@ void solve()
     string n;
     cin >>n;
     string arr[5];
-    
+    forn(i,2){
+        forn(j,5)
+    }
 }
 Free_Palestine
 {
