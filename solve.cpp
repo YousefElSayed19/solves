@@ -32,7 +32,11 @@ void solve()
     cit(a);
     cit(b);
     cit(c);
-    
+    if(a<b){
+        cout<<(((a+b))-a) /2<<endl;
+    }else{
+        cout<<(((a+b))-b) /2<<endl;
+    }
 }
 Free_Palestine
 {
