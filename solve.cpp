@@ -35,7 +35,7 @@ void solve()
     for(int i = 2;i<a.length();i++){
         b+=a[i];
     }
-    cot(b>=2);
+    cout<<(b>=2);
 }
 Free_Palestine
 {
