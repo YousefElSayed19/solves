@@ -29,9 +29,7 @@ using namespace std;
 
 void solve()
 {
-    cit(x);
-    cit(y);
-    cit(z);
+    int arr[3];
     
 }
 Free_Palestine
