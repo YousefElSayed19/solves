@@ -30,6 +30,7 @@ using namespace std;
 void solve()
 {
     cit(x);
+    cit(y);
 }
 Free_Palestine
 {
