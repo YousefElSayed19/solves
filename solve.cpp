@@ -30,7 +30,7 @@ using namespace std;
 void solve()
 {
     int arr[3];
-    forn(i,n){
+    forn(i,3){
         cin>>arr[i];
     }
     sortArr(arr,3);
