@@ -30,8 +30,10 @@ using namespace std;
 void solve()
 {
     cit(a);
+    int sum =0;
     for(int i = 2;i<a;i++){
-        
+        s+=a%10;
+        a/=10;
     }
 }
 Free_Palestine
