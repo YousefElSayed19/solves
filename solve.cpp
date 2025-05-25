@@ -31,7 +31,11 @@ void solve()
 {
     string a;
     cin>>a;
-    if(a>100)
+    if(a.length() > 3){
+        cot(a[3]-'0');
+    }else{
+        cot(a[2]-'0');
+    }
 }
 Free_Palestine
 {
