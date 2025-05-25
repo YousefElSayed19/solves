@@ -34,6 +34,12 @@ void solve()
         cin>>arr[i];
     }
     sortArr(arr,3);
+    if(arr[1]!=arr[2]){
+        NO;
+    }else{
+        YES;
+        cout<<arr[0]<<" "<<arr[0]<<" "<<arr[2]<<endl;
+    }
 }
 Free_Palestine
 {
