@@ -30,6 +30,11 @@ using namespace std;
 void solve()
 {
     cit(a);
+    if(102 <= a <= 109 || 1010 <= a <= 1099){
+        YES;
+    }else{
+        NO;
+    }
 }
 Free_Palestine
 {
