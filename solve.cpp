@@ -31,6 +31,7 @@ void solve()
 {
     cit(x);
     cit(y);
+    cit(z);
 }
 Free_Palestine
 {
