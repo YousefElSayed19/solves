@@ -29,17 +29,7 @@ using namespace std;
 
 void solve()
 {
-    int arr[3];
-    forn(i,3){
-        cin>>arr[i];
-    }
-    sortArr(arr,3);
-    if(arr[1]!=arr[2]){
-        NO;
-    }else{
-        YES;
-        cout<<arr[0]<<" "<<arr[0]<<" "<<arr[2]<<endl;
-    }
+    cit(a);
 }
 Free_Palestine
 {
