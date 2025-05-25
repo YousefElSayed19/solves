@@ -33,7 +33,7 @@ void solve()
     forn(i,n){
         cin>>arr[i];
     }
-    sortArr(arr,3)
+    sortArr(arr,3);
 }
 Free_Palestine
 {
