@@ -35,7 +35,7 @@ void solve()
     for(int i = 2;i<a.length();i++){
         b+=a[i];
     }
-    cot(b);
+    cot(b-'0');
 }
 Free_Palestine
 {
