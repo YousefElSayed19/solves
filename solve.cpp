@@ -29,13 +29,8 @@ using namespace std;
 
 void solve()
 {
-    string a;
-    cin>>a;
-    string b="";
-    for(int i = 2;i<a.length();i++){
-        b+=a[i];
-    }
-    cout<<(b>=2);
+    cit(a);
+    for(int i = 2;i<a)
 }
 Free_Palestine
 {
