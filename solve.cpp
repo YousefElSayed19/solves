@@ -30,7 +30,7 @@ using namespace std;
 void solve()
 {
     cit(a);
-    if(102 <= a <= 109 || 1010 <= a <= 1099){
+    if(102 <= a && a <= 109 || 1010 <= a && a <= 1099){
         YES;
     }else{
         NO;
