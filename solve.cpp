@@ -31,7 +31,6 @@ void solve()
 {
     cit(a);
     cit(c);
-    float d =abs(a-b);
 }
 Free_Palestine
 {
