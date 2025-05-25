@@ -32,6 +32,10 @@ void solve()
     string a;
     cin>>a;
     string b="";
+    for(int i = 2;i<a.length();i++){
+        b+=a[i];
+    }
+    cot(b);
 }
 Free_Palestine
 {
