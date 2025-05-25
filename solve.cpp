@@ -31,10 +31,22 @@ void solve()
 {
     string a;
     cin>>a;
-    if(a.length() > 3){
-        cot(a[3]-'0');
+    if(a[0] == '1' && a[1]=='0'){
+        if(a.length() > 3){
+            if(a[2]-'0' > 0){
+                YES;
+            }else{
+                NO;
+            }
+        }else{
+            if(a[2]-'0' >2){
+                YES;
+            }else{
+                NO;
+            }
+        }
     }else{
-        cot(a[2]-'0');
+        NO;
     }
 }
 Free_Palestine
