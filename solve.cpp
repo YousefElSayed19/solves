@@ -32,7 +32,6 @@ void solve()
     cit(a);
     cit(c);
     cit(d);
-    cout<<b<<" "<<c<<" "<<c<<endl;
 }
 Free_Palestine
 {
