@@ -29,12 +29,19 @@ using namespace std;
 
 void solve()
 {
-    cit(a);
-    if(102 <= a && a <= 109 || 1010 <= a && a <= 1099){
-        YES;
-    }else{
-        NO;
+    int n;
+    cin >> n;
+
+    long long res = 1;
+    int total = 2 * n - 2;
+    int r = n - 1;
+
+    for (int i = 1; i <= r; ++i) {
+        res *= (total - i + 1);
+        res /= i;
     }
+
+    cout << res << endl;
 }
 Free_Palestine
 {
