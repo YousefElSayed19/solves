@@ -33,10 +33,7 @@ void solve()
     cit(b);
     cit(c);
     cit(d);
-    ll r1= (b-a == 0 ? b : b-a);
-    ll r2= (c-b == 0 ? c : c-b );
-    ll r3= (d-c == 0 ? d : d-c);
-    cout<<r1<<" "<<r2<<" "<<r3<<endl;
+    cout<<b<<" "<<c<<" "<<c<<endl;
 }
 Free_Palestine
 {
