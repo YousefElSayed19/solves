@@ -30,7 +30,6 @@ using namespace std;
 void solve()
 {
     cit(n);
-
     ll res = 1;
     int total = 2 * n - 2;
     int r = n - 1;
