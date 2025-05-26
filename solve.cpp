@@ -38,7 +38,6 @@ void solve()
         res *= (total - i + 1);
         res /= i;
     }
-
     cout << res << endl;
 }
 Free_Palestine
