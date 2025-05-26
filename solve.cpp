@@ -29,8 +29,7 @@ using namespace std;
 
 void solve()
 {
-    int n;
-    cin >> n;
+    
 
     long long res = 1;
     int total = 2 * n - 2;
