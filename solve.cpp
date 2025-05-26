@@ -30,7 +30,6 @@ using namespace std;
 void solve()
 {
     cit(a);
-    cit(b);
     cit(c);
     cit(d);
     cout<<b<<" "<<c<<" "<<c<<endl;
