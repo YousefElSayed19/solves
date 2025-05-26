@@ -29,17 +29,13 @@ using namespace std;
 
 void solve()
 {
-    cit(n);
-    ll res = 1;
-    int total = 2 * n - 2;
-    int r = n - 1;
-    for (int i = 1; i <= r; ++i) {
-        res *= (total - i + 1);
-        res /= i;
-    }
+    
 }
 Free_Palestine
 {
-    solve();
+    loop
+    {
+        solve();
+    }
     return 0;
 }
