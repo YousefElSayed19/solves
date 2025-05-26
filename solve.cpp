@@ -42,6 +42,5 @@ void solve()
 Free_Palestine
 {
     solve();
-    
     return 0;
 }
