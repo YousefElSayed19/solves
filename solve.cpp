@@ -29,7 +29,10 @@ using namespace std;
 
 void solve()
 {
-    
+    cit(a);
+    cit(b);
+    cit(c);
+    cit(d);
 }
 Free_Palestine
 {
