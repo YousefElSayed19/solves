@@ -29,9 +29,9 @@ using namespace std;
 
 void solve()
 {
-    cit(n);a
+    cit(n);
 
-    long long res = 1;
+    ll res = 1;
     int total = 2 * n - 2;
     int r = n - 1;
 
