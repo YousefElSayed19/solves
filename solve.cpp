@@ -38,6 +38,7 @@ void solve()
     if (a > m)
     {
         s += m;
+        seats -= m;
         seats -=a;
     }
 }
