@@ -40,7 +40,6 @@ void solve()
         s += m;
         seats -= m;
     }else{
-        s += a;
         seats -=a;
     }
 }
