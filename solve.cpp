@@ -48,7 +48,6 @@ void solve()
         s += m;
         seats -= m;
     }else{
-        s += b;
 }
 Free_Palestine
 {
