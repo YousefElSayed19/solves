@@ -56,7 +56,6 @@ void solve()
     }else{
         s+=c;
     }
-    cot(s);
 }
 Free_Palestine
 {
