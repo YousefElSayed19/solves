@@ -39,7 +39,6 @@ void solve()
     {
         s += m;
         seats -= m;
-    }else{
         seats -=a;
     }
 }
