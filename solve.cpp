@@ -45,7 +45,6 @@ void solve()
     }
     if (b > m)
     {
-        s += m;
 }
 Free_Palestine
 {
