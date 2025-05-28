@@ -36,7 +36,6 @@ void solve()
     int s = 0;
     int seats = m * 2;
     if (a > m)
-    {
         seats -=a;
 }
 Free_Palestine
