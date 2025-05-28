@@ -34,7 +34,6 @@ void solve()
     cit(b);
     cit(c);
     int s = 0;
-    int seats = m * 2;
 }
 Free_Palestine
 {
