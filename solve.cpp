@@ -53,7 +53,6 @@ void solve()
     }
     if(c > seats){
         s+=seats;
-    }else{
 }
 Free_Palestine
 {
