@@ -15,7 +15,7 @@ using namespace std;
 #define sortArr(arr, n) sort(arr, arr + n)
 #define cot(word) cout << word << endl
 #define cit(word) \
-    ll word;     \
+    ll word;      \
     cin >> word
 #define CHECK  \
     if (check) \
@@ -29,7 +29,34 @@ using namespace std;
 
 void solve()
 {
+    cit(m);
     cit(a);
+    cit(b);
+    cit(c);
+    int s = 0;
+    int seats = m * 2;
+    if (a > m)
+    {
+        s += m;
+        seats -= m;
+    }else{
+        s += a;
+        seats -=a;
+    }
+    if (b > m)
+    {
+        s += m;
+        seats -= m;
+    }else{
+        s += b;
+        seats -= b;
+    }
+    if(c > seats){
+        s+=seats;
+    }else{
+        s+=c;
+    }
+    cot(s);
 }
 Free_Palestine
 {
