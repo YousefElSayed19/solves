@@ -46,7 +46,6 @@ void solve()
     if (b > m)
     {
         s += m;
-        seats -= m;
 }
 Free_Palestine
 {
