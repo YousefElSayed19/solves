@@ -29,7 +29,16 @@ using namespace std;
 
 void solve()
 {
-    
+    cit(n);
+    int a[n];
+    forn(i,n){
+        cin>>a[i];
+    }
+    if(is_sorted(a[0],a[n-1])){
+        cot(0);
+    }else{
+        cot(2);
+    }
 }
 Free_Palestine
 {
