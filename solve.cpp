@@ -31,30 +31,19 @@ using namespace std;
     }
 void solve()
 {
-    cit(n);
-    int arr[n];
-    forn(i, n)
-    {
-        cit(num);
-        if (num != 0)
-        {
-            arr[i] = num;
-        }
-        else
-        {
-            reverseArr(arr, i);
-            arr[i] = 0;
-        }
+    cit(w);
+    cit(h);
+    if(w==h){
+        cot("Square");
+    }else{
+        cot("Rectangle");
     }
-    forn(i, n)
-    {
-        cout << arr[i] << " ";
-    }
-    cot("");
 }
-
+ 
 Free_Palestine
 {
-    solve();
+    loop{
+        solve();
+    }
     return 0;
 }
