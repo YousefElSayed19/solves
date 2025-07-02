@@ -31,19 +31,25 @@ using namespace std;
     }
 void solve()
 {
-    cit(w);
-    cit(h);
-    if(w==h){
-        cot("Square");
-    }else{
-        cot("Rectangle");
+    cit(n);
+    cit(k);
+    ll arr[n];
+    forn(i,n){
+        cin>>arr[i];
     }
+    sortArr(arr,n);
+    ll sum = 0 ;
+    for(int i = n-1;i>=0;i--){
+        if(k>0&&arr[i]>0){
+            sum+=arr[i];
+        }
+        k--;
+    }
+    cot(sum);
 }
- 
+
 Free_Palestine
 {
-    loop{
-        solve();
-    }
+    solve();
     return 0;
 }
